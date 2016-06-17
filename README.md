@@ -54,5 +54,5 @@ dlcall hello_world
 
 # get the popcnt of 5
 dlcall -r int -n out popcnt 5
-echo $out  |egrep -o '[0-9]+'
+echo $out | egrep -o '[0-9]+'
 ```
