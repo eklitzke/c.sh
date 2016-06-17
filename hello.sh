@@ -11,7 +11,7 @@ function build {
     while read line; do
         echo $line>>$cfile
     done
-    gcc -fPIC -shared $cfile -o $sofile
+    cc -fPIC -shared $cfile -o $sofile
     rm -f $cfile
     echo $sofile
 }
