@@ -56,3 +56,5 @@ dlcall hello_world
 dlcall -r int -n out popcnt 5
 echo $out | egrep -o '[0-9]+'
 ```
+
+More details [on my blog](https://eklitzke.org/inline-c-and-asm-in-bash).
