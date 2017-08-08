@@ -1,6 +1,6 @@
 # Inline C/Assembler in Bash
 
-Has you ever wanted to combine the speed and safety of Bash with the raw,
+Have you ever wanted to combine the speed and safety of Bash with the raw,
 unbridled power of C? Thanks to @taviso's wonderful
 [ctypes.sh](http://ctypes.sh/) this is possible:
 
